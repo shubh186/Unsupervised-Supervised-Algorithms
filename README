@@ -1,0 +1,49 @@
+Shubh Joshi
+1045707
+shubh@uoguelph.ca
+
+
+------------------------------------------------------
+This assignment was developed using Python3.
+------------------------------------------------------
+
+To run program: 
+    python3 KMeans.py - Runs the KMeans Algorithm of the IRIS Dataset and produces output
+    python3 DT.py - Runs the DT based on the ID3 Algorithm on the IRIS Dataset and produces output
+
+-------------------------------------------------------
+
+KMeans: Prediction 
+N = 100 ( Noticed that when increasing the value of N, either it being 10,100,500 the accuracy does not change by alot)
+Iris-virginica accuracy: 90%
+Iris-versicolor accuracy: 100.00%
+Iris-setosa accuracy: 100.00%
+
+DT Prediction 
+
+Iris-virginica accuracy: 75%
+Iris-versicolor accuracy: 90%
+Iris-setosa accuracy: 100.00%
+
+--------------------------------------------------------
+
+KMeans: Result 
+
+Iris-virginica accuracy: 94%
+Iris-versicolor accuracy: 100.00%
+Iris-setosa accuracy: 100.00%
+
+DT: Result
+
+Iris-virginica accuracy: 83.33%
+Iris-versicolor accuracy: 100.00%
+Iris-setosa accuracy: 100.00%
+
+---------------------------------------------------------
+
+K-means is a clustering algorithm that groups similar data points together based on their distance to the centroid of the cluster. It is an unsupervised learning algorithm, meaning it does not rely on labelled data to make predictions. 
+
+Decision Trees using the ID3 algorithm is a supervised learning algorithm that builds a decision tree based on labelled data, where each node represents a decision rule based on a feature and its possible values.
+
+Decision Trees tend to perform well on classification tasks with discrete and categorical features, while K-means is better suited for clustering tasks with continuous numerical data. For that reason for the IRIS Dataset the Kmeans was easier to implement
+
