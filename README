@@ -1,9 +1,7 @@
 To run program: 
     python3 KMeans.py - Runs the KMeans Algorithm of the IRIS Dataset and produces output
     python3 DT.py - Runs the DT based on the ID3 Algorithm on the IRIS Dataset and produces output
-
-************************************************************************************
-
+********************************************************************************
 
 Analysis: 
 ************************************************************************************
